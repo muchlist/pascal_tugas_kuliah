@@ -1,0 +1,13 @@
+unit cekpas;
+interface
+function CekSandi(Kata, Password: string): Boolean;
+implementation
+
+function CekSandi(Kata, Password: string): Boolean;
+    begin
+        if Kata=Password then
+            CekSandi := True
+        Else
+            CekSandi := False;
+    end;
+end.
